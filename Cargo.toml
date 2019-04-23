@@ -1,0 +1,13 @@
+[package]
+name = "ctrlp-rs"
+description = "A rust clone of the original CTRL-P for neovim."
+version = "0.1.0"
+authors = ["Arne Beer <arne@twobeer.de>"]
+repository = "https://github.com/nukesor/ctrl-p-rs"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+neovim-lib = "0.6.1"
+log = "0.3.7"
+simplelog = "0.4.2"
